@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "119401972149",
+    "project_id": "jiro-tabetai-3f183",
+    "storage_bucket": "jiro-tabetai-3f183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119401972149:android:5b6ba6bc0cad2a166d19fc",
+        "android_client_info": {
+          "package_name": "com.example.always_jiro_cms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119401972149-deess85bvouuu7jmbu0ob7r36pfin2al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDksCp40GkOay1g-VU204zLFrL5JejA9p8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119401972149-deess85bvouuu7jmbu0ob7r36pfin2al.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "119401972149-a68qd97p997s40fun3dlkqedub84p5mp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.naokiwakata.jiroTabetai"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119401972149:android:01a69a8cc4b38da16d19fc",
+        "android_client_info": {
+          "package_name": "com.jiro_tabetai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119401972149-7fv9mj5lb4mfdkrvveic2942ujeqd05t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jiro_tabetai",
+            "certificate_hash": "a20a3913afe275c801990e1b215828ea3777a410"
+          }
+        },
+        {
+          "client_id": "119401972149-deess85bvouuu7jmbu0ob7r36pfin2al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDksCp40GkOay1g-VU204zLFrL5JejA9p8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119401972149-deess85bvouuu7jmbu0ob7r36pfin2al.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "119401972149-a68qd97p997s40fun3dlkqedub84p5mp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.naokiwakata.jiroTabetai"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

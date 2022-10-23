@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>119401972149-oimpb4pldjmhqaj3094u4brhclk8qjma.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.119401972149-oimpb4pldjmhqaj3094u4brhclk8qjma</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>119401972149-7fv9mj5lb4mfdkrvveic2942ujeqd05t.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBc47ecoyJ0is7u2-8tV3iuwgEYzZx1Cgs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>119401972149</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.alwaysJiroCms</string>
+	<key>PROJECT_ID</key>
+	<string>jiro-tabetai-3f183</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jiro-tabetai-3f183.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:119401972149:ios:eb0d1eb23652c48a6d19fc</string>
+</dict>
+</plist>
