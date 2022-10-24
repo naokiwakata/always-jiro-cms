@@ -1,4 +1,7 @@
 {
+    // fvm
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+
     // editor
     "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,

@@ -5,6 +5,10 @@
             "name": "Run CMS",
             "request": "launch",
             "type": "dart",
+              "args": [
+                "--web-renderer",
+                "html"
+            ]
         },
     ]
 }
