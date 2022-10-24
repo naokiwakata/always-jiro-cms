@@ -6,6 +6,8 @@ import '../provider/router.dart';
 class MyApp extends ConsumerWidget {
   const MyApp({Key? key}) : super(key: key);
 
+  static const title = '管理画面';
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final router = ref.watch(routerProvider);
@@ -13,6 +15,7 @@ class MyApp extends ConsumerWidget {
     return MaterialApp.router(
       routeInformationParser: router.routeInformationParser,
       routerDelegate: router.routerDelegate,
+      title: title,
       theme: ThemeData(
         primaryTextTheme: Theme.of(context).textTheme.apply(),
         primaryIconTheme: const IconThemeData(),

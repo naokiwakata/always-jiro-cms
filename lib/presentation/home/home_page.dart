@@ -13,7 +13,9 @@ class HomePage extends StatelessWidget {
     return CustomScaffold(
       route: routePath,
       title: pageTitle,
-      child: Container(),
+      child: Container(
+        child: const Text('HOME'),
+      ),
     );
   }
 }
