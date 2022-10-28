@@ -1,6 +1,9 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
+import '../../domain/post.dart';
 import '../../provider/timeline.dart';
 import '../component/custom_scaffold.dart';
 
@@ -12,7 +15,12 @@ class TimelinePage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final inputText = ref.watch(inputTextProvider);
+    final userId = ref.watch(inputTextProvider);
+    final posts = ref.watch(postsFutureProvider(userId)).when(
+          data: (data) => data,
+          error: (error, stackTrace) => <Post>[],
+          loading: () => <Post>[],
+        );
     return CustomScaffold(
       route: routePath,
       title: pageTitle,
@@ -41,7 +49,8 @@ class TimelinePage extends HookConsumerWidget {
             const SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
-                print(inputText);
+                ref.refresh(postsFutureProvider(userId));
+                log("投稿数：${posts.length}個");
               },
               child: const Text('検索する'),
             ),
